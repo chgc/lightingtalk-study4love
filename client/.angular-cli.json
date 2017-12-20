@@ -6,8 +6,7 @@
   "apps": [
     {
       "root": "src",
-      "outDir": "../server/wwwroot/client",
-      "deployUrl": "/client",
+      "outDir": "../server/wwwroot",
       "assets": ["assets", "favicon.ico"],
       "index": "script.html",
       "main": "main.ts",

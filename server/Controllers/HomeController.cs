@@ -29,7 +29,7 @@ namespace server.Controllers
         public async Task<IViewComponentResult> InvokeAsync()
         {
 
-            var model = System.IO.File.ReadAllText(Path.Combine(_env.WebRootPath, "client", "script.html"));
+            var model = System.IO.File.ReadAllText(Path.Combine(_env.WebRootPath, "script.html"));
             return View("Index", model);
         }
     }
